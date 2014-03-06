@@ -1,0 +1,71 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "model:babi.expression,name:product"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "model:babi.expression,name:product_category"
+msgid "Category"
+msgstr "Categoría"
+
+msgctxt "model:babi.expression,name:product_code"
+msgid "Code"
+msgstr "Código"
+
+msgctxt "model:babi.expression,name:product_cost_price"
+msgid "Cost Price"
+msgstr "Precio de coste"
+
+msgctxt "model:babi.expression,name:product_list_price"
+msgid "List Price"
+msgstr "Precio de venta"
+
+msgctxt "model:babi.expression,name:product_name"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "model:babi.expression,name:product_rec_name"
+msgid "Record Name"
+msgstr "Nombre registro"
+
+msgctxt "model:babi.expression,name:product_self"
+msgid "Product"
+msgstr "Productos"
+
+msgctxt "model:babi.expression,name:product_type"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "model:babi.expression,name:product_unit_margin"
+msgid "Unit Margin"
+msgstr "Margen unitario"
+
+msgctxt "model:babi.expression,name:product_unit_profit"
+msgid "Unit Profit"
+msgstr "Benefició unitario"
+
+msgctxt "model:babi.filter,name:assets_products"
+msgid "Assets"
+msgstr "Activos"
+
+msgctxt "model:babi.filter,name:consumable_products"
+msgid "Consumables"
+msgstr "Consumibles"
+
+msgctxt "model:babi.filter,name:purchasable_products"
+msgid "Purchasable"
+msgstr "Puede ser comprado"
+
+msgctxt "model:babi.filter,name:sellable_products"
+msgid "Salable"
+msgstr "Puede ser vendido"
+
+msgctxt "model:babi.filter,name:service_products"
+msgid "Services"
+msgstr "Servicios"
+
+msgctxt "model:babi.filter,name:stockable_products"
+msgid "Goods"
+msgstr "Bienes"
