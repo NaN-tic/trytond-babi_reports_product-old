@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
 <tryton>
     <data grouped="1">
-
         <!-- Filters -->
-
         <record model="babi.filter" id="stockable_products">
             <field name="name">Goods</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
@@ -38,7 +38,6 @@
         <!--
              Expressions
         -->
-
         <!-- product.product -->
         <record model="babi.expression" id="product_self">
             <field name="ttype">many2one</field>
@@ -107,6 +106,5 @@
             <field name="expression">o.type</field>
             <field name="name">Type</field>
         </record>
-
     </data>
 </tryton>
