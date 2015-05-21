@@ -71,10 +71,11 @@
             <field name="name">Name</field>
         </record>
         <record model="babi.expression" id="product_category">
-            <field name="ttype">char</field>
+            <field name="ttype">many2one</field>
             <field name="model" search="[('model','=','product.product')]"/>
-            <field name="expression">o.category and o.category.rec_name</field>
+            <field name="expression">o.category and o.category.id</field>
             <field name="name">Category</field>
+            <field name="related_model" search="[('model','=','product.category')]"/>
         </record>
         <record model="babi.expression" id="product_list_price">
             <field name="ttype">float</field>
