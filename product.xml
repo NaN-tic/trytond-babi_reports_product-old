@@ -7,32 +7,44 @@
         <record model="babi.filter" id="stockable_products">
             <field name="name">Goods</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
-            <field name="domain">[('type', '=', 'goods')]</field>
+            <field name="domain"
+                eval="[('type', '=', 'goods')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="assets_products">
             <field name="name">Assets</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
-            <field name="domain">[('type', '=', 'assets')]</field>
+            <field name="domain"
+                eval="[('type', '=', 'assets')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="service_products">
             <field name="name">Services</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
-            <field name="domain">[('type', '=', 'service')]</field>
+            <field name="domain"
+                eval="[('type', '=', 'service')]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="consumable_products">
             <field name="name">Consumables</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
-            <field name="domain">[('consumable', '=', True)]</field>
+            <field name="domain"
+                eval="[('consumable', '=', True)]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="sellable_products">
             <field name="name">Salable</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
-            <field name="domain">[('salable', '=', True)]</field>
+            <field name="domain"
+                eval="[('salable', '=', True)]"
+                pyson="1"/>
         </record>
         <record model="babi.filter" id="purchasable_products">
             <field name="name">Purchasable</field>
             <field name="model" search="[('model', '=', 'product.product')]"/>
-            <field name="domain">[('purchasable', '=', True)]</field>
+            <field name="domain"
+                eval="[('purchasable', '=', True)]"
+                pyson="1"/>
         </record>
 
         <!--
